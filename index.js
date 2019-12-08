@@ -1,6 +1,5 @@
 // Code your solutions in this file
-const names = ['Lisa', 'Kaitlin', 'Jan'];
-const event = 'birthday';
+
 function writeCards(person, thing) {
    let newArray = []
     for (let i = 0; i < person.length; i++) {

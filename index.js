@@ -1,14 +1,13 @@
-function writeCards(names, event) {
-    let asdfasdf = []
+function writeCards(names) {
+    let newVar = []
     for (let i = 0; i < names.length; i++) {
-        asdfasdf.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
-    };
-    return asdfasdf;
-};
+        newVar.push(`Thank you, ${names[i]}, for the wonderful surprise gift!`)
+    }
+    return newVar;
+}
 
-function countDown(number) { 
-    while (number >= 0) {
-        console.log(number);
-        number--;
-    };
-};
+function countDown(number) {
+    for (let i = number; i >= 0; i--) {
+        console.log(i)
+    }
+}
